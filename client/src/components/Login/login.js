@@ -3,8 +3,8 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import { useNavigate } from "react-router-dom";
 import './login.css'
-import {validUsers, error} from '../../data'; 
 import { useAuth } from '../Auth/Auth'; 
+import Modal from '../Modal/modal'
 
 
 
@@ -37,6 +37,11 @@ const handleLogin = (e)=>{
 
 return(
 <div>
+<div>
+  <Modal></Modal>
+</div>
+
+
   <div className="form">
 <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">
