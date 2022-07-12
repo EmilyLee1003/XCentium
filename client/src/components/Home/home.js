@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../Auth/Auth";
-import NavBar from "../navBar/navBar";
+import NavBar from "../NavBar/navBar";
 import picture from "../Picture/maldives.jpg";
 import "./home.css";
 
