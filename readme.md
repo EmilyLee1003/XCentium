@@ -2,8 +2,6 @@
 
 To start the app:
 <br />
--Download React.js
-<br />
 -Run npm start in terminal
 <br />
 -Open http://localhost:3000/login to view it in the browser.
