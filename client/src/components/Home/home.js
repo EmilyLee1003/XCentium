@@ -1,23 +1,37 @@
-import react from 'react';
 import { useNavigate } from "react-router-dom";
-import Button from 'react-bootstrap/Button'
-import { useAuth} from '../Auth/Auth'
+import { useAuth } from "../Auth/Auth";
+import NavBar from "../navBar/navBar";
+import picture from "../Picture/maldives.jpg";
+import "./home.css";
 
-export default function Home(){
+export default function Home() {
+  const auth = useAuth();
+  let navigate = useNavigate();
 
-  const auth = useAuth(); 
-let navigate = useNavigate(); 
+  const logOut = () => {
+    auth.logout();
+    navigate("/login");
+  };
 
-
-const logOut=()=>{
-  auth.logout()
-navigate('/login')
-}
-
-return(
+  return (
     <div>
-  <h1> welcome</h1>
-  <Button variant="primary" onClick={logOut}>Log Out</Button>
+      <NavBar button={logOut}></NavBar>
+      <div className="userDetails"></div>
+
+      <div
+        style={{
+          backgroundImage: `url(${picture})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="container" style={{ minHeight: "550px" }}>
+          <div className="text-center justify-content-center align-self-center">
+            <h1 className="pt-5 pb-3">Hello {auth.currentUser.name}</h1>
+          </div>
+        </div>
+      </div>
     </div>
-)
+  );
 }

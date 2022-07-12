@@ -1,22 +1,18 @@
-import React from 'react';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import ReactDOM from "react-dom/client";
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
+import { BrowserRouter } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 
-} from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-<BrowserRouter>
-    <App/>
-  </BrowserRouter>,
+  // implement dynamic routing
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
