@@ -1,5 +1,5 @@
 ## User Login / Register
-<br />
+
 To start the app:
 <br />
 -Download React.js
@@ -10,17 +10,27 @@ To start the app:
 
 <br />
 -This application is a front end application with these features:
+<br />
 -Login page with username, password fields
+<br />
 -Button for login
+<br />
 -Register page with name, username, and password fields
+<br />
 -Button for Register
+<br />
 -Buttons to navigate between login and register page
+<br />
 -Error messages with appropriate errors
+<br />
 -home page that displays the logged in user's name
+<br />
 -Navigation bar
+<br />
 -stylish home page with an image and text in the center
+<br />
 -log out button
-
+<br />
 Screen shots:
 <img width="1335" alt="Screen Shot 2022-07-11 at 6 45 07 PM" src="https://user-images.githubusercontent.com/64618285/178390486-a665b314-76b3-46ea-a892-425069e307d1.png">
 
