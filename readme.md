@@ -23,13 +23,13 @@ To start the app:
 <br />
 -Error messages with appropriate errors
 <br />
--home page that displays the logged in user's name
+-Home page that displays the logged in user's name
 <br />
 -Navigation bar
 <br />
--stylish home page with an image and text in the center
+-Stylish home page with an image and text in the center
 <br />
--log out button
+-Log out button
 <br />
 <br />
 Screen shots:
