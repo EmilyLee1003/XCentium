@@ -1,13 +1,12 @@
-
-
-Requirements
-
-Create a login page with the following input fields:
-Username
-Password
-Add a button for Login
-Upon click of the login button, validate the credentials using the CSV File attached.
-If successfully logged in, redirect the user to another page (Let’s call it home page) that displays the user’s name(from CSV, name can be displayed anywhere on the home page) and a hero banner displaying a good quality image. Also, display a logout button at the top.
-If the credentials are not valid on the login page, show an error message
-Implement logout and redirect to login page upon logout
-Do not show the home page when the user is not logged in, redirect to login page.
+##User Login / Registration
+-This application is a front end application with these features:
+-Login page with username, password fields
+-Button for login
+-Register page with name, username, and password fields
+-Button for Register
+-Buttons to navigate between login and register page
+-Error messages with appropriate errors
+-home page that displays the logged in user's name
+-Navigation bar
+-stylish home page with an image and text in the center
+-log out button
