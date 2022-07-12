@@ -1,4 +1,4 @@
-User Login / Registration
+## User Login / Register
 <br />
 To start the app:
 <br />
