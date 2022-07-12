@@ -31,7 +31,9 @@ To start the app:
 <br />
 -log out button
 <br />
+<br />
 Screen shots:
+<br />
 <img width="1335" alt="Screen Shot 2022-07-11 at 6 45 07 PM" src="https://user-images.githubusercontent.com/64618285/178390486-a665b314-76b3-46ea-a892-425069e307d1.png">
 
 <img width="1354" alt="Screen Shot 2022-07-11 at 6 45 38 PM" src="https://user-images.githubusercontent.com/64618285/178390583-cbe18d21-cd9b-46c3-a2d2-ba7b0a95666e.png">
